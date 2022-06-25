@@ -6,11 +6,19 @@
     height: 100vh;
 }
 
-.card{
-    width: 50%;
+.card-img-top{
+    width: 50% !important;
+    align-self: center;
 }
 
-.card-img-top{
-    width: 57% !important;
-    align-self: center;
+.card{
+    width: 65% !important;
+}
+
+.navbar-expand-lg a{
+    color: white;
+}
+
+.navbar-expand-lg span{
+    color:white;
 }

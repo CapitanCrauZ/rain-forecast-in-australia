@@ -1,74 +1,68 @@
 <!DOCTYPE html>
-<html lang="es-cl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-    <link rel="stylesheet" href="../../static/home/css/static.css">
+    <link rel="stylesheet" href="../../static/log/css/static.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Rain Forecast in Australia | Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <box-icon type='solid' name='user'></box-icon> -->
+    <title>Rain Forecast in Australia | Log</title>
 </head>
 <body>
-    
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #21D192">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">{{ user.username }}</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                </ul>
-                <a href="{% url 'logout' %}"><button type="submit"  class="btn btn-primary"> Logout </button></a>
-                <!-- <span class="navbar-text"> -->
-                    <!-- Navbar text with an inline element -->                    
-                <!-- </span> -->
+        <header>
+            <nav class="navbar navbar-expand-lg" style="background-color: #21D192">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar w/ text</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text">
+                    Navbar text with an inline element
+                  </span>
+                </div>
               </div>
-            </div>
-          </nav>
+            </nav>
+          </header>
     </header>
     <main class="main">
         <div class="card">
-            <!-- <img src="../../static/home/images/map.png" class="card-img-top" alt="..."> -->
+            <i class='bx bxs-user'></i>
             <div class="card-body">
-                <form>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Location" aria-label=".form-control-xs example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Minimum Temperature" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Evaporation" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Wind Gust Speed" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Average Wind Speed" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Average Humidity" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Average Pressure" aria-label=".form-control-lg example">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input class="form-control" type="text" placeholder="Average Cloud" aria-label=".form-control-lg example">
-                    </div>
-                    </div>
-                </form>
+                <div class="card-body-2">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="}input-group mb-3">
+                            <!-- <label for="usuario">User<input type="text" name="username"></label> -->
+                            <label for="username" class="form-label">User<input type="text" name="username" class="form-control"></label>
+                            <div id="usernameHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <!-- <label for="password">Password<input type="text" name="password" ></label> -->
+                            <label for="password" class="form-label">Password<input type="password" name="password" class="form-control"></label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit"  class="btn btn-primary"> Submit </button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
@@ -103,8 +97,7 @@
               <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 class="text-uppercase fw-bold">Company name</h6>
-                  <hr class="mb-4 mt-0 d-inline-block mx-auto"style="width: 60px; background-color: #7c4dff; height: 2px"
-                      />
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"style="width: 60px; background-color: #7c4dff; height: 2px"/>
                   <p>
                     Here you can use rows and columns to organize your footer
                     content. Lorem ipsum dolor sit amet, consectetur adipisicing

@@ -5,3 +5,31 @@
     align-items: center;
     height: 100vh;
 }
+
+.bx.bxs-user{
+    align-self: center;
+    font-size: 250px !important;
+}
+
+.card{
+    width: 65%;
+}
+
+.navbar-expand-lg a{
+    color: white;
+}
+
+.navbar-expand-lg span{
+    color:white;
+}
+
+.card-body{
+    justify-content: center;
+    display: flex;
+}
+
+.card-body-2{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
