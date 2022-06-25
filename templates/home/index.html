@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
+    <link rel="stylesheet" href="../../static/home/css/static.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Rain Forecast in Australia | Home</title>
 </head>
 <body>
     <header></header>
-    <main>
-        <h1>HOMEPAGE</h1>
+    <main class="main">
+        <div class="card">
+            <img src="../../static/log/images/map.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <h1>Form</h1>
+                        <input class="form-control form-control-lg" type="text" placeholder="Location" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Minimum Temperature" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Evaporation" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Wind Gust Speed" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Average Wind Speed" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Average Humidity" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Average Pressure" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg" type="text" placeholder="Average Cloud" aria-label=".form-control-lg example">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="/log">log</a>
     </main>
     <footer>
-        <a href="/log">log</a>
     </footer>
 </body>
 </html>

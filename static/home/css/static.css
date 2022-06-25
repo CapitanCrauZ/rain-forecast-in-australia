@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 50%;
+}
+
+.card-img-top{
+    width: 57% !important;
+    align-self: center;
+}
