@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse
+from django.conf import settings
 
-# Create your views here.
 
 def map(request):
     return render(request, 'map/map.html')

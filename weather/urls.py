@@ -1,7 +1,7 @@
 from django import views
+from .views import weather
 from django.urls import path
-from .views import map
 
 urlpatterns = [
-    path('', map, name="map"),
+    path('', weather)
 ]
