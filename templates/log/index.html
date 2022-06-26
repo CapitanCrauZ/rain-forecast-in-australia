@@ -22,10 +22,10 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home/">Home</a>
+                <a class="nav-link" aria-current="page" href="home/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="map/">Map</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -40,22 +40,12 @@
     </header>
     <main class="main">
         <div class="card">
-            <!-- <img src="../../static/log/images/user.png" class="card-img-top" alt="..."> -->
             <i class='bx bxs-user'></i>
             <div class="card-body">
                 <form method="POST">
                   {% csrf_token %}
-                  <label for="usuario">
-                      User
-                      <input type="text" name="username">
-                  </label>
-                  <label for="password">
-                      Password
-                      <input type="text" name="password" >
-                  </label>
-                  <button type="submit"> Login </button>
-                  <!-- {{ form2 }} -->
-                    <!-- <div class="mb-3">
+                  {{ form }}
+                    <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -67,8 +57,8 @@
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div> -->
-                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
           </div>

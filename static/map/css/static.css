@@ -6,13 +6,9 @@
     height: 100vh;
 }
 
-.card-img-top{
-    width: 50% !important;
-    align-self: center;
-}
-
-.card{
-    width: 65% !important;
+img{
+    width: 300px;
+    height: 300px;
 }
 
 .navbar-expand-lg a{
@@ -23,7 +19,11 @@
     color:white;
 }
 
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+
 p{
     margin-bottom: 0.1rem !important;
 }
-

@@ -12,7 +12,7 @@
 }
 
 .card{
-    width: 50%;
+    width: 30%;
 }
 
 .navbar-expand-lg a{
@@ -32,7 +32,7 @@
 .card-body-2{
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100%;
 }
 
 .card-header{
@@ -44,23 +44,13 @@ p{
     margin-bottom: 0.1rem !important;
 }
 
-@media (max-width: 1200px){
-
+@media (max-width: 1600px){
     .card{
-        width: 70% !important;
+        width: 60% !important;
     }
-
 }
 
-@media (max-width: 1200px){
-
-    .card{
-        width: 70% !important;
-    }
-
-}
-
-@media (max-width: 600px){
+@media (max-width: 800px){
     .card-img-top{
         width: 30% !important;
     }
@@ -72,4 +62,11 @@ p{
         font-size: 100px !important;
     }
 
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

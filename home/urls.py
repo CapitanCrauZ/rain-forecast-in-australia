@@ -1,10 +1,11 @@
 from django import views
 from django.urls import path
-from .views import home, show_form, log_out
+from .views import home, show_form, log_out, profile
 
 
 urlpatterns = [
     path('', home),
     path('', show_form),
-    path('accounts/', log_out, name='logout')
+    path('accounts/', log_out, name='logout'),
+    path('profile/', profile, name='profile')
 ]

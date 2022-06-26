@@ -32,3 +32,6 @@ def show_form(request):
 def log_out(request):
   logout(request)
   return redirect('/')
+
+def profile(request):
+  return render(request, 'log/profile.html')
