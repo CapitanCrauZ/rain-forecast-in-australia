@@ -34,8 +34,8 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=c
   main.innerHTML = nameValue;
   /*desc.innerHTML = "Clima - "+descValue;*/
   idicon.innerHTML= "Icono -" + idiconValue;
-  temp.innerHTML = "Temperature - " + tempValue + " Farenheit"; /*+(tempValue-273.15).toFixed(2)+'C°';*/
-  humidity.innerHTML="Humidity -" + humidityValue;
+  temp.innerHTML = "Temperature - " +(tempValue-273.15).toFixed(2)+'C°'; /*+ tempValue + " Farenheit";*/ 
+  humidity.innerHTML="Humidity - " + humidityValue;
   input.value ="";
 
   /*Condicional del clima*/
