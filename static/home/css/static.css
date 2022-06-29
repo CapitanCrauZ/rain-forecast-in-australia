@@ -15,6 +15,11 @@
     width: 65% !important;
 }
 
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-expand-lg a{
     color: white;
 }

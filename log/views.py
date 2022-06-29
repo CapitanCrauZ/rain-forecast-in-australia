@@ -26,23 +26,6 @@ def register(request):
 
 def log(request):
     return render(request, 'log/index.html')
-    # #GET
-    # form2 = AuthenticationForm()
-    # if request.method == 'POST':
-    #     form2 = AuthenticationForm(data = request.POST)
-    #     if form2.is_valid():
-    #         user = form2.cleaned_data['user']
-    #         password = form2.cleaned_data['password']
- 
-    #         user_loged = authenticate(user = user, password = password)
-    #         if user_loged is not None:
-    #             login(request, user_loged)
-    #             return redirect('log/profile.html')
-    # context = {
-    #     'form2':form2
-    # }
-    # return render(request, 'log/index.html', context)
-    # #POST
 
 def log_out(request):
     logout(request)
