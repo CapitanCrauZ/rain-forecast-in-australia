@@ -21,7 +21,7 @@ def home(request):
 @login_required
 def show_form(request):
     print(sys.argv[1:])
-    mejor_modelo = load(".\modelo\mejor_modelo.joblib")
+    mejor_modelo = load(".\model\mejor_modelo.joblib")
     if request.method == 'GET':
       # print(mejor_modelo.predict([[19.5, 6.2, 42.6, 18.5, 88.0, 1017.50, 8.0, 1.0]]))
       return render(request, "home/index.html")
