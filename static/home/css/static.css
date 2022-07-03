@@ -10,6 +10,13 @@
     height: 100vh;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-img-top{
     width: 50% !important;
     align-self: center;
@@ -17,6 +24,11 @@
 
 .card{
     width: 65% !important;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
 }
 
 .card-footer{

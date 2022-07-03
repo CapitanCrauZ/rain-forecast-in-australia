@@ -1,9 +1,7 @@
-from django.conf import Settings
-from django.shortcuts import redirect, render, HttpResponse
+from django.shortcuts import redirect, render
 from joblib import load
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
-from joblib import dump
 import warnings
 import sys
 
@@ -42,9 +40,6 @@ def show_form(request):
       return render(request, "home/index.html", context = salida)
     salida = salida.cleaned_data()
     salida = salida.save()
-
-    
-      
 
 def log_out(request):
   logout(request)
