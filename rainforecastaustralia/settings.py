@@ -147,7 +147,7 @@ PWA_APP_BACKGROUND_COLOR = "red"
 
 PWA_APP_ICONS = [{
     "src": "/static/icon/logo.png",
-    "size": "160x160"
+    "size": "360x120"
 }]
 
 PWA_SERVICE_WORKER_PATH = join(BASE_DIR, "serviceworker.js")

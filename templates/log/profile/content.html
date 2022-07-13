@@ -1,0 +1,27 @@
+{% load static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <i class='bx bxs-user'></i>
+    </div>
+    <div class="card-body">
+        <div class="mb-3 form-control">
+            <label for="username" class="form-label">Username</label>
+            <p class="text-capitalize form-control"> {{ user.username }}</p>
+        </div>
+        <div class="mb-3 form-control">
+            <label for="first_name" class="form-label">First Name</label>
+            <p class="text-capitalize form-control"> {{ user.first_name }} </p>
+        </div>
+        <div class="mb-3 form-control">
+            <label for="last_name" class="form-label">Last Name</label>
+            <p class="text-capitalize form-control"> {{ user.last_name }} </p>
+        </div>
+        <div class="mb-3 form-control">
+            <label for="email" class="form-label">Email</label>
+            <p class="text-lowercase form-control"> {{ user.email }} </p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
