@@ -1,11 +1,12 @@
 from django import views
 from django.urls import path
-from .views import home, log_out, profile, show_form
+from .views import exit, profile, home, base, log
 
 
 urlpatterns = [
-    # path('', home),
-    path('', show_form),
-    path('accounts/', log_out, name='logout'),
+    path('', home, name='home'),
+    path('', base, name='base'),
+    path('log/', log, name='log'),
+    path('accounts/', exit, name='exit'),
     path('profile/', profile, name='profile'),
 ]

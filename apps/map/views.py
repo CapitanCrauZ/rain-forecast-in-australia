@@ -11,11 +11,14 @@ from .models import map
 #         'mapbox_access_token': mapbox_access_token
 #     })
 
+def base(request):
+    return render(request, 'base/index.html')
+
 class MapView(CreateView):
 
         model = map
         fields = ['address']
-        template_name = 'map/map.html'
+        template_name = 'map/index.html'
 
         def get_context_data(self, **kwargs):
             context = super().get_context_data(**kwargs)

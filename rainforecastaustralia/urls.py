@@ -24,7 +24,7 @@ urlpatterns = [
     path('', include('apps.home.urls'), name='home'),
     path('map/', include('apps.map.urls'), name='map'),
     path('weather/', include('apps.weather.urls'), name='weather'),
-    # path('', include('log.urls'), name='log')
+    path('', include('pwa.urls')),
 ]
 
 if settings.DEBUG:

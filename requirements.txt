@@ -1,0 +1,8 @@
+Django==3.2.2
+geocoder==1.38.1
+joblib==1.1.0
+Pillow==9.0.1
+django-admin-interface
+django-crispy-forms
+django-rest-framework
+django-pwa

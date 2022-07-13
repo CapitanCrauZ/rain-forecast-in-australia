@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pwa',
     'apps.home',
-    'apps.log',
     'apps.map',
     'apps.weather',
 ]
@@ -131,9 +131,23 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = join(BASE_DIR, 'static', 'static_root')
 
-STATICFILES_DIRS = [join(BASE_DIR, 'static')]
+STATICFILES_DIRS = [join(BASE_DIR, "static")]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# PWA
+
+PWA_APP_NAME = "rainforecastinaustralia"
+PWA_APP_DESCRIPTOR = "Rain Forecast in Australia"
+PWA_APP_THEME_COLOR = "blue"
+PWA_APP_BACKGROUND_COLOR = "red"
+
+PWA_APP_ICONS = [{
+    "src": "/static/icon/logo.png",
+    "size": "160x160"
+}]
+
+PWA_SERVICE_WORKER_PATH = join(BASE_DIR, "serviceworker.js")

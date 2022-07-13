@@ -1,0 +1,24 @@
+{% load static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <div class="mb">
+            <input type="text" placeholder="Name of the City" class="input_text form-control">
+        </div>
+        <input type="submit" value="Submit" class="submit btn btn-primary">
+    </div>
+    <div class="card-body">
+        <div class="container">
+            <div class="tiempo">
+                <h1 class="name" id="name"></h1>
+                <p class="temp"></p>
+                <p class="clouds"></p>
+                <p class="desc"></p>
+                <p class="humidity"></p>
+                <p class=idicon></p>
+            </div>
+    </div>
+</div>
+</div>
+{% endblock content %}

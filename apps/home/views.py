@@ -10,14 +10,11 @@ warnings.filterwarnings('ignore')
 
 # Create your views here.
 
-# MinTemp 1.5 - 
+def base(request):
+  return render(request, 'base/index.html')
 
 @login_required
 def home(request):
-    return render(request, 'home/index.html')
-
-@login_required
-def show_form(request):
     print(sys.argv[1:])
     mejor_modelo = load(".\model\mejor_modelo.joblib")
     if request.method == 'GET':
@@ -41,9 +38,12 @@ def show_form(request):
     salida = salida.cleaned_data()
     salida = salida.save()
 
-def log_out(request):
+def exit(request):
   logout(request)
   return redirect('/')
 
 def profile(request):
-  return render(request, 'log/profile.html')
+  return render(request, 'log/profile/index.html')
+
+def log(request):
+  return render(request, '/registration/login.html')
