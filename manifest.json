@@ -1,0 +1,26 @@
+
+{
+    "name": "RainForecastInAustralia",
+    "short_name": "RainForecastInAustralia",
+    "description": "My Progressive Web App",
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "orientation": "any",
+    "background_color": "#20c997",
+    "theme_color": "#20c997",
+    "status_bar": "default",
+    "purpose": "any",
+    "icons": [
+        {"src": "/static/icon/logo.png", "sizes": "72x72"},
+        {"src": "/static/icon/logo.png", "sizes": "96x96"}, 
+        {"src": "/static/icon/logo.png", "sizes": "128x128"},
+        {"src": "/static/icon/logo.png", "sizes": "144x144"},
+        {"src": "/static/icon/logo.png", "sizes": "152x152"},
+        {"src": "/static/icon/logo.png", "sizes": "192x192"},
+        {"src": "/static/icon/logo.png", "sizes": "384x384"},
+        {"src": "/static/icon/logo.png", "sizes": "512x512"}
+    ],
+    "dir": "auto",
+    "lang": "es-cl"
+  }

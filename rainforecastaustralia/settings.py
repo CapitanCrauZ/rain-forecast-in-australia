@@ -140,14 +140,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # PWA
 
-PWA_APP_NAME = "rainforecastinaustralia"
+PWA_APP_NAME = "Rain Forecast In Australia"
 PWA_APP_DESCRIPTOR = "Rain Forecast in Australia"
-PWA_APP_THEME_COLOR = "blue"
-PWA_APP_BACKGROUND_COLOR = "red"
-
-PWA_APP_ICONS = [{
-    "src": "/static/icon/logo.png",
-    "size": "360x120"
-}]
-
+PWA_APP_THEME_COLOR = "#20c997"
+PWA_APP_BACKGROUND_COLOR = "white"
+PWA_APP_ICONS = [
+        {"src": "/static/icon/logo.png", "sizes": "630x315"},
+        {"src": "/static/icon/logo.png", "sizes": "96x96"}, 
+        {"src": "/static/icon/logo.png", "sizes": "128x128"},
+        {"src": "/static/icon/logo.png", "sizes": "144x144"},
+        {"src": "/static/icon/logo.png", "sizes": "152x152"},
+        {"src": "/static/icon/logo.png", "sizes": "192x192"},
+        {"src": "/static/icon/logo.png", "sizes": "384x384"},
+        {"src": "/static/icon/logo.png", "sizes": "512x512"}
+]
+PWA_APP_LANG = "es-cl"
 PWA_SERVICE_WORKER_PATH = join(BASE_DIR, "serviceworker.js")
