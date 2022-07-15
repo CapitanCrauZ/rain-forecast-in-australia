@@ -10,31 +10,31 @@
             {% csrf_token %}
             <div class="input-group mb-3">
                 <label for="MinTemp" class="form-control">Minimum Temperature</label>
-                <input class="form-control" name="MinTemp" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="MinTemp" type="number" step="0.1" min="-1.5" max="29.7" placeholder="Range: -1.5 - 29.7" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="Evaporation" class="form-control">Evaporation</label>
-                <input class="form-control" name="Evaporation" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="Evaporation" type="number" step="0.1" min="0.0" max="44.4" placeholder="Range: 0.0 - 44.4" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="WindGustSpeed" class="form-control">Average Gust Speed</label>
-                <input class="form-control" name="WindGustSpeed" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="WindGustSpeed" type="number" step="0.1" min="13.0" max="126.0" placeholder="Range: 0.1 - 13.0" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="AvgWindSpeed" class="form-control">Average Wind Speed</label>
-                <input class="form-control" name="AvgWindSpeed" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="AvgWindSpeed" type="number" step="0.1" min="0.0" max="56.5" placeholder="Range: 0.0 - 56.5" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="AvgHumidity" class="form-control">Average Humidity</label>
-                <input class="form-control" name="AvgHumidity" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="AvgHumidity" type="number" step="0.1" min="9.0" max="100.0" placeholder="Range: 9.0 - 100.0" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
               <label for="AvgPressure" class="form-control">Average Pressure</label>
-                <input class="form-control" name="AvgPressure" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="AvgPressure" type="number" step="0.1" min="986.15" max="1039.55" placeholder="Range: 986.15 - 1039.55" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="AvgCloud" class="form-control">Average Cloud</label>
-                <input class="form-control" name="AvgCloud" type="number" step="0.1" aria-label=".form-control-lg example" required>
+                <input class="form-control" name="AvgCloud" type="number" step="0.1" min="0.0" max="8.0" placeholder="Range: 0.0 - 8.0" aria-label=".form-control-lg example" required>
             </div>
             <div class="input-group mb-3">
                 <label for="RainToday" class="form-control">Rain Today</label>

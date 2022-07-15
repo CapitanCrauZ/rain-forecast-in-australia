@@ -48,3 +48,25 @@ p{
     margin-bottom: 0.1rem !important;
 }
 
+
+@media (max-width: 1000px){
+
+    .main{
+        height: 120vh;
+    }
+
+    .card{
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 400px){
+    .main{
+        height: 150vh;
+    }
+
+    .card{
+        width: 90% !important;
+    }
+
+}
