@@ -23,7 +23,7 @@ form{
 }
 
 .card{
-    width: 65% !important;
+    width: 45% !important;  
 }
 
 .card-header{
@@ -42,6 +42,14 @@ form{
 
 .navbar-expand-lg span{
     color:white;
+}
+
+.darkmode{
+    padding-right: 5px;
+}
+
+.darkmode button:active{
+    color-scheme: light dark; /* both supported */
 }
 
 p{

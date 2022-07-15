@@ -2,7 +2,7 @@
 
 {% block header %}
 
-<nav class="navbar navbar-expand-lg" style="background-color: #21D192">
+<nav class="navbar navbar-expand-lg" style="background-color: slateblue">
     <div class="container-fluid">
         {% if user.is_authenticated%}
             <a class="navbar-brand active" href="/profile/"><p class="text-capitalize">{{ user.username }}</p></a>
@@ -36,10 +36,11 @@
                 </li>
             {% endif %}
         </ul>
+        <a href="#" class="darkmode"><button class="btn btn-dark" disabled type="submit"><img src="../../static/dark/images/moon.png" alt="" srcset="" width="20px" height="20px"></button></a>
         {% if user.is_authenticated %}
-            <a href="{% url 'exit' %}"><button type="submit"  class="btn btn-primary"> Logout </button></a>
+            <a href="{% url 'exit' %}"><button type="submit"  class="btn btn-danger"> Logout </button></a>
         {% else %}
-            <a href="#"><button disabled="disabled" class="btn btn-primary"> Signup </button></a>
+            <a href="#"><button disabled="disabled" class="btn btn-warning"> Signup </button></a>
         {% endif %}
         </div>
     </div>
