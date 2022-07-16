@@ -41,6 +41,10 @@
     align-items: center;
 }
 
+.darkmode{
+    padding-right: 5px;
+}
+
 p{
     margin-bottom: 0.1rem !important;
 }
