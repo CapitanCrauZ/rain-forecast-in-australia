@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 PWA_APP_NAME = "Rain Forecast In Australia"
 PWA_APP_DESCRIPTOR = "Rain Forecast in Australia"
-PWA_APP_THEME_COLOR = "#20c997"
+PWA_APP_THEME_COLOR = "black"
 PWA_APP_BACKGROUND_COLOR = "white"
 PWA_APP_ICONS = [
         {"src": "/static/icon/alternativelogo.png", "sizes": "500x500"},
