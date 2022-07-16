@@ -145,7 +145,7 @@ PWA_APP_DESCRIPTOR = "Rain Forecast in Australia"
 PWA_APP_THEME_COLOR = "black"
 PWA_APP_BACKGROUND_COLOR = "white"
 PWA_APP_ICONS = [
-        {"src": "/static/icon/alternativelogo.png", "sizes": "500x500"},
+        {"src": "/static/icon/alternativelogo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
 ]
 PWA_APP_LANG = "es-cl"
 PWA_SERVICE_WORKER_PATH = join(BASE_DIR, "serviceworker.js")
