@@ -30,10 +30,6 @@
     justify-content: space-evenly;
 }
 
-.card-body{
-    visibility: hidden;
-}
-
 .tiempo{
     display: flex;
     flex-direction: column;
