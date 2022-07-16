@@ -5,6 +5,10 @@ var filesToCache = [
     '/offline/',
     '/static/offline/css/style.css',
     '/static/css/django-pwa-app.css',
+    '/static/validators/images/vcss-blue.jpg',
+    '/static/validators/images/vcss.jpg',
+    '/static/dark/images/moon.png',
+    'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css'
 ];
 
 // Cache on install
