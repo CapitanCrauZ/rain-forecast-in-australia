@@ -13,23 +13,23 @@
 - [Developer](#Developer).
 
 ### Introduction
-- This project is the development of a progressive web application whose main function is to predict whether or not it will rain in Australia, with a predictive model previously developed and trained
+This project is the development of a progressive web application whose main function is to predict whether or not it will rain in Australia, with a predictive model previously developed and trained
 
 ### Framework
-- To develop this page the django framework was used in its last version of the current year (2022)
+To develop this page the django framework was used in its last version of the current year (2022)
 
 ### Languages
-- The languages used in this project were:
+The languages used in this project were:
 
 - [Python]
 - [HTML5]
 - [JavaScript]
 
 ### Database
-- MySql Server was used as a database
+MySql Server was used as a database
 
 ### Requirements
-- the requirements to be able to execute this project:
+The requirements to be able to execute this project:
     + Django==3.2.2
     + geocoder==1.38.1
     + joblib==1.1.0
@@ -40,6 +40,7 @@
     + django-pwa
 
 ### Views 
+Views used in this project:
 - Home
 - Login
 - Map
@@ -47,9 +48,10 @@
 - Weather
 
 ### Model
-- a model trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
+a model trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
 
 ### Functions
+Functions used in this project:
 - exit
 - profile
 - base
