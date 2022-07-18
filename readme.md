@@ -30,6 +30,7 @@ MySql Server was used as a database
 
 ### Requirements
 The requirements to be able to execute this project:
+
     + Django==3.2.2
     + geocoder==1.38.1
     + joblib==1.1.0
@@ -48,7 +49,7 @@ Views used in this project:
 - Weather
 
 ### Model
-a model trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
+The model was trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
 
 ### Functions
 Functions used in this project:
