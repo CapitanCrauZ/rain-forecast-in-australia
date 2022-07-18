@@ -1,3 +1,61 @@
 # Rain Forecast in Australia - Application
 
-### Developer: CapitanCrauZ
+### Table of Contents
+
+- [Introduction](#Introduction).
+- [FrameWork](#Framework)
+- [Languages](#Languages).
+- [DataBase](#Database).
+- [Requeriments](#Requirements).
+- [Views](#Views).
+- [Model](#Model).
+- [Functions](#Functions).
+- [Developer](#Developer).
+
+### Introduction
+- This project is the development of a progressive web application whose main function is to predict whether or not it will rain in Australia, with a predictive model previously developed and trained
+
+### Framework
+- To develop this page the django framework was used in its last version of the current year (2022)
+
+### Languages
+- The languages used in this project were:
+
+- [Python]
+- [HTML5]
+- [JavaScript]
+
+### Database
+- MySql Server was used as a database
+
+### Requirements
+- the requirements to be able to execute this project:
+    + Django==3.2.2
+    + geocoder==1.38.1
+    + joblib==1.1.0
+    + Pillow==9.0.1
+    + django-admin-interface
+    + django-crispy-forms
+    + django-rest-framework
+    + django-pwa
+
+### Views 
+- Home
+- Login
+- Map
+- Profile
+- Weather
+
+### Model
+- a model trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
+
+### Functions
+- exit
+- profile
+- base
+- log
+- home
+- weather
+
+### Developer
+- CapitanCrauZ
