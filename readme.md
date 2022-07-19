@@ -49,7 +49,7 @@ Views used in this project:
 - Weather
 
 ### Model
-The model was trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
+The model was trained with MLPClassifier was used in jupyter notebook and imported with the joblib library
 
 ### Functions
 Functions used in this project:
