@@ -1,16 +1,20 @@
-# Rain Forecast in Australia - Application
+# Rain Forecast in Australia - Progressive Web Application
 
-### Table of Contents
+<center>
+    <!-- <img src="https://github.com/CapitanCrauZ/Neo-Mind-Predective-AI/blob/master/img/cover.png" width="300" height="240"> -->
+</center>
 
-- [Introduction](#Introduction).
+### Index
+
+- [Introduction](#Introduction)
 - [FrameWork](#Framework)
-- [Languages](#Languages).
-- [DataBase](#Database).
-- [Requeriments](#Requirements).
-- [Views](#Views).
-- [Model](#Model).
-- [Functions](#Functions).
-- [Developer](#Developer).
+- [Languages](#Languages)
+- [DataBase](#Database)
+- [Requeriments](#Requirements)
+- [Views](#Views)
+- [Model](#Model)
+- [Functions](#Functions)
+- [Developer](#Developer)
 
 ### Introduction
 This project is the development of a progressive web application whose main function is to predict whether or not it will rain in Australia, with a predictive model previously developed and trained
