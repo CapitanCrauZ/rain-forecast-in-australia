@@ -1,4 +1,4 @@
-# Rain Forecast in Australia - Progresive Web Application
+# Rain Forecast in Australia - Progressive Web Application
 
 ### Index
 
