@@ -1,6 +1,6 @@
-# Rain Forecast in Australia - Application
+# Rain Forecast in Australia - Progresive Web Application
 
-### Table of Contents
+### Index
 
 - [Introduction](#Introduction).
 - [FrameWork](#Framework)
