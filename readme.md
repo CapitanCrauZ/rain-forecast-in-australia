@@ -1,6 +1,6 @@
 # Rain Forecast in Australia - Progressive Web Application
 
-<img src="https://github.com/CapitanCrauZ/Rain-Forecast-in-Australia/blob/master/media/front/rain.png" width="100%" height="100%">
+<img src="https://github.com/CapitanCrauZ/Rain-Forecast-in-Australia/blob/master/media/front/rain.png" width="80%" height="80%">
 
 ### Index
 
