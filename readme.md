@@ -38,16 +38,22 @@ Screenshots of page tabs
 
 > Login
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_log.png" width="100%" height="100%">
+
 > Profile
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_profile.png" width="100%" height="100%">
+
 > Home
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_home.png" width="100%" height="100%">
+
 > Predicts Rain
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_predict_rain.png" width="100%" height="100%">
+
 > Predicts without Rain
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_predict_raint.png" width="100%" height="100%">
+
 > Wheater
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_weather.png" width="100%" height="100%">
+
 > Map
 <img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_map.png" width="100%" height="100%">
 
