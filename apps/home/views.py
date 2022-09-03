@@ -16,12 +16,10 @@ def base(request):
 @login_required
 def home(request):
     print(sys.argv[1:])
-    mejor_modelo = load(".\model\mejor_modelo.joblib")
+    predict_model = load(".\model\predict-model.joblib")
     if request.method == 'GET':
-      # print(mejor_modelo.predict([[19.5, 6.2, 42.6, 18.5, 88.0, 1017.50, 8.0, 1.0]]))
       return render(request, "home/index.html")
     elif request.method == 'POST':
-      # mejor_modelo = load(Settings.RUTA_MODELO)
       MinTemp = (request.POST['MinTemp'])
       Evaporation = (request.POST['Evaporation'])
       WindGustSpeed = (request.POST['WindGustSpeed'])
@@ -31,7 +29,7 @@ def home(request):
       AvgCloud = (request.POST['AvgCloud'])
       RainToday = (request.POST['RainToday'])
       salida = {
-          "predict": int(mejor_modelo.predict(([[MinTemp, Evaporation, WindGustSpeed, AvgWindSpeed, AvgHumidity, AvgPressure, AvgCloud, RainToday]]))[0])
+          "predict": int(predict_model.predict(([[MinTemp, Evaporation, WindGustSpeed, AvgWindSpeed, AvgHumidity, AvgPressure, AvgCloud, RainToday]]))[0])
       }
       print(salida)
       return render(request, "home/index.html", context = salida)

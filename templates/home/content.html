@@ -44,19 +44,15 @@
                 </select>
             </div>
             <a href="{{home}}"><button type="submit" class="btn btn-primary" id=".submit"> Submit </button></a>
-            <!-- <h1>{{ predict }}</h1> -->
             </div>
             <div class="card-footer">
               <form action="" method="post">
                 {% if predict == 1 %}  
                   <img src="../../media/rain.png" alt="" srcset="" width="100px" height="100px">
-                  <!-- <h1>Va a llover</h1> -->
                 {% elif predict == 0 %}
                   <img src="../../media/rain't.png" alt="" srcset="" width="100px" height="100px">
-                  <!-- <h1>No va a Llover</h1> -->
                 {% else %}
                   <p></p>
-                <!-- <img src="../../modelo/kitten.png" alt="" srcset="" width="50px" height="50px"> -->
                 {% endif %}
               </form>
             </div>
