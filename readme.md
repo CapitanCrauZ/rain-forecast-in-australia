@@ -10,6 +10,7 @@
 - [FrameWork](#Framework)
 - [Languages](#Languages)
 - [DataBase](#Database)
+- [Tabs](#Tabs)
 - [Requeriments](#Requirements)
 - [Views](#Views)
 - [Model](#Model)
@@ -32,6 +33,24 @@ The languages used in this project were:
 ### Database
 MySql Server was used as a database
 
+### Tabs
+Screenshots of page tabs
+
+> Login
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_log.png" width="50%" height="50%">
+> Profile
+<img src="" width="50%" height="50%">
+> Home
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_home.png" width="50%" height="50%">
+> Predicts Rain
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_predict_rain.png" width="50%" height="50%">
+> Predicts without Rain
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_predict_raint.png" width="50%" height="50%">
+> Wheater
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_weather.png" width="50%" height="50%">
+> Map
+<img src="https://github.com/CapitanCrauZ/RAIN-FORECAST-IN-AUSTRALIA/blob/master/media/tabs/rfia_map.png" width="50%" height="50%">
+
 ### Requirements
 The requirements to be able to execute this project:
 
@@ -48,6 +67,7 @@ The requirements to be able to execute this project:
 Views used in this project:
 - Home
 - Login
+- Profile
 - Map
 - Profile
 - Weather
