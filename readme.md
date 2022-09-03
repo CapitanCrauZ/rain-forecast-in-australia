@@ -1,4 +1,4 @@
-# Rain Forecast in Australia - Progressive Web Application
+# Rain Forecast in Australia | Progressive Web Application Project
 <div style="display:flex; text-align:center; justify-content:center; align-item:center; a{display:flex; justify-content:center;}">
     <img src="https://github.com/CapitanCrauZ/Rain-Forecast-in-Australia/blob/master/media/front/rain.png" width="50%" height="50%">
 </div>
