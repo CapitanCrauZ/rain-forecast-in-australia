@@ -1,11 +1,9 @@
 # Rain Forecast in Australia - Progressive Web Application
-
 <div style="display:flex; text-align:center; justify-content:center; align-item:center; a{display:flex; justify-content:center;}">
     <img src="https://github.com/CapitanCrauZ/Rain-Forecast-in-Australia/blob/master/media/front/rain.png" width="50%" height="50%">
 </div>
 
 ### Index
-
 - [Introduction](#Introduction)
 - [FrameWork](#Framework)
 - [Languages](#Languages)
@@ -29,6 +27,7 @@ The languages used in this project were:
 - [Python]
 - [HTML5]
 - [JavaScript]
+- [CSS3]
 
 ### Database
 MySql Server was used as a database
@@ -81,15 +80,5 @@ Views used in this project:
 ### Model
 The model was trained with randomforestclassifier was used in jupyter notebook and imported with the joblib library
 
-### Functions
-Functions used in this project:
-- exit
-- profile
-- base
-- log
-- home
-- weather
-
 ### Developer
-
 - CapitanCrauZ
